@@ -1,0 +1,155 @@
+nav{
+    width: 100%;
+    height: 60px;
+    background: #1d1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    width: 150px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    line-height: 60px;
+    color: white;
+}
+nav img{
+    height: 60px;
+    margin-left: 30px;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: #FDDD00;
+    text-align: center;
+}
+.banner img{
+    /* height: 400px; */
+    width: 100%;
+    clip-path: circle(50% at 50% 0);
+}
+.search{
+background-color:rgb(0, 0, 0);
+width: 20%;
+height: 50px;
+/* display: block; */
+position: fixed;
+top: 100px;
+left: -200px;
+border-radius: 10px;
+
+}
+.search:hover{
+    left: 0px;
+    }
+    
+    .search img{
+        height: 50px;
+        position:absolute;
+        right: 0;
+    }
+
+main{
+    width: 80%;
+    margin: auto;
+}
+.first_block{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    z-index: 20px;
+}
+.first_block div{
+    border: 2px solid #FDDD00;
+    margin-top: -20px;
+   background: white;
+    margin-right: 20px;
+    height: 150px;
+    z-index: 20;
+    border-radius:10px ;
+}
+
+ .first_block div:hover .test{
+    clip-path: circle(50% at 26% 33%);
+    color: #FDDD00;
+    position: absolute;
+    z-index: 20;
+ }
+.academy{
+    margin: 40px auto;
+    
+}
+h1{
+    text-align: center;
+    color: #454D9E;
+}
+.second_block{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+color: #454D9E;
+}
+.aboutimg{
+    border-radius:20px 20px 0px 0px;
+    margin-left: 20px;
+}
+hr{
+    width: 50%;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+table tr:nth-child(even){
+background-color: gray;
+}
+.latest-news{
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.latest-news div{
+    width: 30%;
+    border: 2px solid black;
+}
+.josea{
+    width: 100%;
+}
+.video{
+    background-color: #FDDD00;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.n2{
+    width: 70%;
+    height: 90%;
+    padding: 20px;
+}
+.map{
+    margin-left: 5%;
+}
+marquee{
+    height: 40px;
+    background-color: #302b2b;
+    padding-top: 20px;
+    color: white;
+    }
